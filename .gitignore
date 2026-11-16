@@ -1,0 +1,15 @@
+# Godot cache
+.godot/
+*.import
+
+# Build outputs
+build/
+*.apk
+*.aab
+*.pck
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
