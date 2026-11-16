@@ -69,7 +69,8 @@ jobs:
             "$HOME/godot/godot" --headless --path . --editor --quit
 
       - name: Headless boot test (scripts must load and tick)
-        run: "$HOME/godot/godot" --headless --path . --quit-after 30
+        run: |
+          "$HOME/godot/godot" --headless --path . --quit-after 30
 
       - name: Debug keystore
         run: |
